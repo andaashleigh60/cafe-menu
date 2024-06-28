@@ -1,0 +1,106 @@
+/* Styles for Camper Cafe Menu */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+header, main, footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.established {
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ecf0f1;
+  margin: 20px 0;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 2em;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+section img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecf0f1;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.item p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.flavor, .dessert {
+  color: #34495e;
+}
+
+.price {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.bottom-line {
+  border: 0;
+  height: 1px;
+  background: #ecf0f1;
+  margin: 20px 0;
+}
+
+footer p {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+footer a {
+  color: #e74c3c;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #c0392b;
+}
+
+.address {
+  color: #7f8c8d;
+}
